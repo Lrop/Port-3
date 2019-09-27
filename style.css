@@ -342,3 +342,10 @@ li {
   font-weight: 300;
 }
 
+#profile-img {
+  box-shadow: 0px 0px 16px white;
+  border: 5px solid black;
+  /* border-style: solid black 2px; */
+  /* border-image: url(border.png) 30 round; */
+
+}
