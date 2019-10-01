@@ -16,9 +16,13 @@ body {
   /* background: url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60) no-repeat center fixed; */
   background: url(https://images.unsplash.com/photo-1534970028765-38ce47ef7d8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) no-repeat center fixed;
   /* background: url(https://images.unsplash.com/photo-1531951665218-b8b598959072?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)no-repeat center fixed; */
+  background: url(https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60)no-repeat center fixed;
   /* background-image: url(https://images.unsplash.com/photo-1513366208864-87536b8bd7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60); */
   background-size: cover;
   color: white;
+}
+section{
+ padding: 6rem;
 }
 
 a {
@@ -272,11 +276,27 @@ li {
 
 .portfolio-img{
   flex: 1;
+  width: 50rem;
+
 }
 
-.portfolio-description {
+/* .portfolio-description {
   flex: 1;
+} */
+
+.portfolio-description h6 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 0.3;
 }
+.portfolio-description h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  font-weight: 300;
+  /* opacity: 0.3; */
+}
+
 
 
 
@@ -351,4 +371,8 @@ li {
   /* border-style: solid black 2px; */
   /* border-image: url(border.png) 30 round; */
 
+}
+
+.margin-right {
+  margin-right: 5rem;
 }
