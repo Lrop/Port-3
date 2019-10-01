@@ -16,13 +16,14 @@ body {
   /* background: url(https://images.unsplash.com/photo-1489549132488-d00b7eee80f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60) no-repeat center fixed; */
   /* background: url(https://images.unsplash.com/photo-1534970028765-38ce47ef7d8d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80) no-repeat center fixed; */
   /* background: url(https://images.unsplash.com/photo-1531951665218-b8b598959072?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)no-repeat center fixed; */
-  background: url(https://images.unsplash.com/photo-1491848994285-eb4f1d0b7275?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80)no-repeat center fixed;
+  background: url(https://images.unsplash.com/photo-1494981314336-e559e6fad2cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)no-repeat center fixed;
   /* background-image: url(https://images.unsplash.com/photo-1513366208864-87536b8bd7b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60); */
   background-size: cover;
   color: white;
 }
 section{
  padding: 6rem;
+ padding-top: 0rem;
 }
 
 a {
@@ -37,6 +38,7 @@ p {
 
 img {
   width: 100%;
+  box-shadow: 0px 0px 16px white;
 }
 
 header {
@@ -400,9 +402,9 @@ textarea {
 }
 
 input[type="submit"]{
-  width: initial;
-  background-color: yellow;
-  color: black;
+  /* width: initial; */
+  background-color: black;
+  color: white;
   padding: 1rem 2rem;
   border: none;
   border-radius: .8rem;
@@ -491,7 +493,7 @@ input[type="submit"]:hover{
 }
 .section-heading h1{
   font-size: 3.5rem;
-  color: rgba(255, 255, 255, .3);
+  color: rgba(255, 255, 255, .9);
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
@@ -534,7 +536,7 @@ input[type="submit"]:hover{
   box-shadow: 0px 0px 16px white;
   border: 5px double antiquewhite;
   border-radius: 8px;
-  width: 400px;
+  width: 310px;
   /* border: 5px solid black; */
   /* border-style: solid black 2px; */
   /* border-image: url(border.png) 30 round; */
