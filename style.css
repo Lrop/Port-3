@@ -250,6 +250,7 @@ li {
 
 }
 .img-icon {
+  border-radius: 100%;
   border: none;
   background: transparent;
 }
