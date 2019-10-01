@@ -23,7 +23,7 @@ body {
 }
 section{
  padding: 6rem 0;
- /* padding-top: 0rem; */
+ padding-top: 0rem;
 }
 
 a {
@@ -52,7 +52,7 @@ header {
   height: 100vh;
   position: fixed;
   top: -100vh;
-  background-color: #16162d;
+  background-color: black;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1, 0, 0, 1);
@@ -160,10 +160,15 @@ li {
 }
 
 .landing-text h1{
+  /* background-image: url(./Assets/IMG/code-pic2.jpg); */
+  /* text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black; */
+  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
+
   font-size: 10rem;
    /* font-family: 'Pacifico', cursive; */
    font-family: 'Alfa Slab One', cursive;
-   background: linear-gradient(to top, yellow, white, yellow);
+   /* background: linear-gradient(to top, yellow, white, yellow); */
+   background: linear-gradient(to top, #4776e6 , #8e54e9, #a5fecb, #20bdff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   padding: 4rem;
@@ -200,7 +205,7 @@ li {
 }
 
 .profile-img{
-  flex: 1;
+  flex: .5;
   margin-right: 5rem;
 }
 
@@ -244,9 +249,13 @@ li {
   margin-left: 0;
 
 }
+.img-icon {
+  border: none;
+  background: transparent;
+}
 
 .icon-container{
-  background: url(./Assets/IMG/code-pic3.jpg);
+  background: url(./Assets/IMG/coding.jpg);
 
   width: 10rem;
   height: 10rem;
@@ -536,11 +545,11 @@ input[type="submit"]:hover{
 
 #profile-img {
   box-shadow: 0px 0px 16px white;
-  border: 5px double antiquewhite;
+  /* border: 5px double antiquewhite; */
   border-radius: 8px;
   width: 310px;
   /* border: 5px solid black; */
-  /* border-style: solid black 2px; */
+  border-style: solid black 2px;
   /* border-image: url(border.png) 30 round; */
 
 }
