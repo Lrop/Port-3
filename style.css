@@ -453,8 +453,9 @@ input[type="submit"]:hover{
   top: -2.5rem;
   right: 5rem;
   border-radius: 100%;
-  display: flex;
+  /* display: flex; */
   animation: pulse 2s infinite;
+  padding-top: 17px;
 
 }
 
@@ -568,5 +569,11 @@ input[type="submit"]:hover{
 
 .profile-image {
   border: double black;
+
+}
+
+#top-button {
+  color: black;
+  text-align: center;
 
 }
