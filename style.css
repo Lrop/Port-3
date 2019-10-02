@@ -38,7 +38,12 @@ p {
 
 img {
   width: 100%;
-  border-style: double;
+  /* border-style: double; */
+  border-style: inset;
+  width: 100%;
+  box-shadow: 0px 0px 0px 2px deepskyblue;
+  /* border-style: double; */
+  /* box-shadow: 0px 0px 16px white;
   /* box-shadow: 0px 0px 16px white; */
 }
 
@@ -557,4 +562,11 @@ input[type="submit"]:hover{
 
 .margin-right {
   margin-right: 5rem;
+}
+
+
+
+.profile-image {
+  border: double black;
+
 }
