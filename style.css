@@ -39,12 +39,9 @@ p {
 img {
   width: 100%;
   /* border-style: double; */
-  border-style: inset;
+  /* border-style: inset; */
   width: 100%;
-  box-shadow: 0px 0px 0px 2px deepskyblue;
-  /* border-style: double; */
-  /* box-shadow: 0px 0px 16px white;
-  /* box-shadow: 0px 0px 16px white; */
+  box-shadow: 0px 0px 2px white;
 }
 
 header {
@@ -256,7 +253,7 @@ li {
 }
 .img-icon {
   border-radius: 100%;
-  border: none;
+  /* border: solid black; */
   background: transparent;
 }
 
