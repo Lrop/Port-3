@@ -271,18 +271,6 @@ li {
   transform: rotate(45deg);
   /* box-shadow: 0px 0px 2px white; */
 }
-.icon-container:hover{
-  background: url(./Assets/IMG/code-pic4.jpg);
-
-  width: 10rem;
-  height: 10rem;
-  border: 3px solid white;
-  /* background-color: bisque; */
-  margin-bottom: 2rem;
-  display: flex;
-  transform: rotate(-45deg);
-  /* box-shadow: 0px 0px 2px white; */
-}
 
 .icon-container i{
   color: black;
@@ -290,7 +278,7 @@ li {
   margin: auto;
   transform: rotate(-45deg);
 }
-.icon-container
+
 
 .portfolio-item {
   display: flex;
