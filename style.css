@@ -120,6 +120,11 @@ li {
 
 
 }
+.menu-toggler.close {
+  transform: rotate(-45deg);
+
+
+}
 
 .bar {
   /* background: linear-gradient(to right, #0bdb2e, white, #fd57ef); */
