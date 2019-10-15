@@ -252,7 +252,9 @@ li {
 }
 
 .icon-container {
-  background: url(./Assets/IMG/coding.jpg);
+  /* background: url(./Assets/IMG/coding.jpg); */
+  background: url(./Assets/IMG/code20.jpg);
+  background-position: right;
 
   width: 10rem;
   height: 10rem;
