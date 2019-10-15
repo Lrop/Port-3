@@ -1,287 +1,397 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- JS -->
+    <script src="./main.js"></script>
 
-  <!-- JS -->
-  <script src="./main.js"></script>
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Font Awsome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="/your-path-to-fontawesome/css/fontawesome.css"
+      rel="stylesheet"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet" />
 
-  <!-- AOS  -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Font Awsome -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <title>Portfolio</title>
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-
-  <title>Portfolio</title>
-</head>
-
-<body>
-
-  <header>
-    <div class="menu-toggler">
-      <div class="bar half start"></div>
-      <div class="bar"></div>
-      <div class="bar half end"></div>
-    </div>
-
-    <!-- <audio controls>
+      <!-- <audio controls>
       <source src="horse.ogg" type="audio/ogg">
       <source src="horse.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio> -->
 
-    <nav class="top-nav">
-      <ul class="nav-list">
-        <li>
-          <a href="index.html" class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
-        </li>
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li>
-          <a href="#services" class="nav-link">Services</a>
-        </li>
-        <li>
-          <a href="#portfolio" class="nav-link">Portfolio</a>
-        </li>
-        <li>
-          <a href="#experience" class="nav-link">Experince</a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-
-      </ul>
-    </nav>
-
-    <div class="landing-text">
-      <h1  data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="1500" >Luke Ropner</h1>
-      <h6>UI || Full-Stack Web Devolper</h6>
-    </div>
-
-  </header>
-
-  <section class="about" id="about">
-    <div class="container">
-      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-        <img src="./Assets/IMG/Pic1.jpg" alt="Picture of Me" class="profile-image" id="profile-img">
-      </div>
-      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-        <div class="about-heading">
-          <h1>About</h1>
-          <h6>Myself</h6>
-        </div>
-        <p>
-          My name is Luke Ropner. I am 23 years old and currently residing in 
-          Salt Lake City, UT. I am enrolled in a Unniversity of Utah Web 
-          Development course. 
-        </p>
-        <div class="social-media">
-          <ul class="nav-list">
-            <li>
-              <a href="#" class="icon-link">
-                <img src="./Assets/IMG/icons8-resume-100.png" style="width: 50px" class="img-icon" alt="">
-                <!-- <i class="fab fa-facebook-square"></i> -->
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/luke-ropner-116a97183?trk=people-guest_profile-result-card_result-card_full-click"
-                target="_blank" class="icon-link">
-                <img src="./Assets/IMG/icons8-linkedin-50.png" class="img-icon" alt="">
-                <!-- <i class="fab fa-twitter-square"></i> -->
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/Lrop" target="_blank" class="icon-link">
-                <img src="./Assets/IMG/icons8-github-50.png" target="_blank" class="img-icon" alt="">
-                <!-- <i class="fab fa-linkdin-square"></i> -->
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Services</h1>
-        <!-- <h6>What can i Do </h6> -->
-      </div>
-      <div class="my-skills">
-        <div class="skill" data-aos="fade-in" data-aos-delay="300">
-          <div class="icon-container">
-            <!-- <i class="fab fa-facebook"></i> -->
-          </div>
-          <h1>Web Designer</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quos, aperiam dolore
-            nisi in iusto reiciendis sint, itaque non
-            quasi fuga ut, architecto ab qui distinctio
-            eaque maiores vel sapiente quaerat.
-          </p>
-        </div>
-        <div class="skill" data-aos="fade-in" data-aos-delay="600">
-          <div class="icon-container">
-            <i class="fas fa-code-group"></i>
-          </div>
-          <h1>Web Devolper</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quos, aperiam dolore
-            nisi in iusto reiciendis sint, itaque non
-            quasi fuga ut, architecto ab qui distinctio
-            eaque maiores vel sapiente quaerat.
-          </p>
-        </div>
-        <div class="skill" data-aos="fade-in" data-aos-delay="900">
-          <div class="icon-container" >
-            <i class="fas fa-chart-group"></i>
-          </div>
-          <h1>Skills</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Quos, aperiam dolore
-            nisi in iusto reiciendis sint, itaque non
-            quasi fuga ut, architecto ab qui distinctio
-            eaque maiores vel sapiente quaerat.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Portfolio</h1>
-        <!-- <h6>View my recent work </h6> -->
-      </div>
-
-      <div class="portfolio-item">
-        <div class="portfolio-img margin-right">
-          <img class="materialboxed"  data-aos="fade-right"  data-aos-duration="1500" style="width: 500px;" alt="" src="./Assets/IMG/perfect pub.PNG">
-          <!-- <img src="./Assets/IMG/perfect pub.PNG" style="width: 500px;" alt=""> -->
-        </div>
-        <div class="portfolio-description">
-          <h6>Web Application</h6>
-          <h1>The Perfect Pub</h1>
-          <p>
-            The Perfect Pub is an application designed to find the perfect drinkeries for you
-            in your local area. With the ability to search globally no bar or pub is ever out of your reach.
-          </p>
-          <a href="https://d-veazie.github.io/PerfectPub-v2/page1.html" class="cta" target="_blank">Live Site</a>
-          <br>
-          <a href="https://github.com/d-veazie/Perfect-Pub" class="cta" target="_blank">View Details</a>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="portfolio-description margin-right">
-          <h6>Web Application</h6>
-          <h1>Glam-On-Demand</h1>
-          <p>
-            Glam-on-Demand is another web application designed to bring the best and brightest people in
-            the beautitian world right to your doorstep. With geolocation and api mapping your next haircut is
-          </p>
-          <!-- <a href="#" class="cta">View Details</a> -->
-          <a href="https://glam-on-demand.herokuapp.com/" class="cta" target="_blank">Live Site</a>
-          <br>
-          <a href="https://github.com/StephenOveson/project-2" class="cta" target="_blank">View Details</a>
-        </div>
-        <div class="portfolio-img">
-          <img src="./Assets/IMG/glam on demand better.PNG" class="materialboxed" data-aos="fade-left"  data-aos-duration="1500" style="width: 500px;" alt="">
-        </div>
-
-      </div>
-      <div class="portfolio-item">
-        <div class="portfolio-img margin-right">
-          <img src="./Assets/IMG/tree better pic.PNG" data-aos="fade-right"  data-aos-duration="1500" class="materialboxed" style="width: 500px;" alt="">
-        </div>
-        <div class="portfolio-description">
-          <h6>Memory Game</h6>
-          <h1>Memory Tree Game</h1>
-          <p>
-            This is the first react appilcation I built. A simple memory card game using memory logic
-            that logs the users top scores and current scores while resetting the game after each loss.
-          </p>
-          <!-- <a href="#" class="cta">View Details</a> -->
-          <a href="https://treeclick.herokuapp.com/" class="cta" target="_blank">Live Site</a>
-          <br>
-          <a href="https://github.com/Lrop/Clicky-Game-Application" class="cta" target="_blank">View Details</a>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="portfolio-description margin-right">
-          <h6>Web Application</h6>
-          <h1>Eat-A-Burger</h1>
-          <p>
-            This application is used to save and store burger in a menu database using Node express
-            handles bars and MySql.
-          </p>
-          <!-- <a href="#" class="cta">View Details</a> -->
-          <a href="https://glam-on-demand.herokuapp.com/" class="cta" target="_blank">Live Site</a>
-          <br>
-          <a href="https://github.com/Lrop/Node-Express-Handlebars" class="cta" target="_blank">View Details</a>
-        </div>
-        <div class="portfolio-img">
-          <img src="./Assets/IMG/burger.PNG" class="materialboxed" data-aos="fade-left"  data-aos-duration="1500" style="width: 500px;" alt="">
-        </div>
-      </div>
-   
-
-
-
-
-
-    </div>
-  </section>
-
-  <section class="experience" id="experience">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Work Experince</h1>
-        <h6>Past and Current Jobs</h6>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-        <ul>
-          <li class="date" data-date="2018 - Present">
-            <h1>J-Tech Medical</h1>
-            <p>
-              Software and production team member. Working closley with the
-              programming leads of there mobile and desktop medical UI.
-            </p>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a
+              href="index.html"
+              class="nav-link"
+              data-toggle="collapse"
+              data-target=".navbar-collapse.show"
+              >Home</a
+            >
           </li>
-          <!-- <li class="date" data-date="2012 - Present">
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experince</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="landing-text">
+        <h1
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          Luke Ropner
+        </h1>
+        <h6>UI || Full-Stack Web Devolper</h6>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img
+            src="./Assets/IMG/Pic1.jpg"
+            alt="Picture of Me"
+            class="profile-image"
+            id="profile-img"
+          />
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            My name is Luke Ropner. I am 23 years old and currently residing in
+            Salt Lake City, UT. I am enrolled in a Unniversity of Utah Web
+            Development course.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="icon-link">
+                  <img
+                    src="./Assets/IMG/icons8-resume-100.png"
+                    style="width: 50px"
+                    class="img-icon"
+                    alt=""
+                  />
+                  <!-- <i class="fab fa-facebook-square"></i> -->
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/luke-ropner-116a97183?trk=people-guest_profile-result-card_result-card_full-click"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <img
+                    src="./Assets/IMG/icons8-linkedin-50.png"
+                    class="img-icon"
+                    alt=""
+                  />
+                  <!-- <i class="fab fa-twitter-square"></i> -->
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Lrop"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <img
+                    src="./Assets/IMG/icons8-github-50.png"
+                    target="_blank"
+                    class="img-icon"
+                    alt=""
+                  />
+                  <!-- <i class="fab fa-linkdin-square"></i> -->
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Services</h1>
+          <!-- <h6>What can i Do </h6> -->
+        </div>
+        <div class="my-skills">
+          <div class="skill" data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-container">
+              <!-- <i class="fab fa-facebook"></i> -->
+            </div>
+            <h1>Web Designer</h1>
+            <p>
+              A Web designer is someone who prepares content for the Web. This
+              role is mainly related to the styling and layout of pages with
+              content, including text and images.
+            </p>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="600">
+            <div class="icon-container">
+              <i class="fas fa-code-group"></i>
+            </div>
+            <h1>Web Devolper</h1>
+            <p>
+              A Web developer is a kind of programmer who specializes in the
+              development of applications relating to the World Wide Web or
+              distributed network applications.
+            </p>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fas fa-chart-group"></i>
+            </div>
+            <h1>Skills</h1>
+            <p>
+              HTML / CSS3 / JavaScript / JQuery / Node.js / PHP / Express.js /
+              React.js / Bookshelf.js / Database Theory / MongoDB / MySQL /
+              Command Line / Git
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <!-- <h6>View my recent work </h6> -->
+        </div>
+
+        <div class="portfolio-item">
+          <div class="portfolio-img margin-right">
+            <img
+              class="materialboxed"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              style="width: 500px;"
+              alt=""
+              src="./Assets/IMG/perfect pub.PNG"
+            />
+            <!-- <img src="./Assets/IMG/perfect pub.PNG" style="width: 500px;" alt=""> -->
+          </div>
+          <div class="portfolio-description">
+            <h6>Web Application</h6>
+            <h1>The Perfect Pub</h1>
+            <p>
+              The Perfect Pub is an application designed to find the perfect
+              drinkeries for you in your local area. With the ability to search
+              globally no bar or pub is ever out of your reach.
+            </p>
+            <a
+              href="https://d-veazie.github.io/PerfectPub-v2/page1.html"
+              class="cta"
+              target="_blank"
+              >Live Site</a
+            >
+            <br />
+            <a
+              href="https://github.com/d-veazie/Perfect-Pub"
+              class="cta"
+              target="_blank"
+              >View Details</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description margin-right">
+            <h6>Web Application</h6>
+            <h1>Glam-On-Demand</h1>
+            <p>
+              Glam-on-Demand is another web application designed to bring the
+              best and brightest people in the beautitian world right to your
+              doorstep. With geolocation and api mapping your next haircut is
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+            <a
+              href="https://glam-on-demand.herokuapp.com/"
+              class="cta"
+              target="_blank"
+              >Live Site</a
+            >
+            <br />
+            <a
+              href="https://github.com/StephenOveson/project-2"
+              class="cta"
+              target="_blank"
+              >View Details</a
+            >
+          </div>
+          <div class="portfolio-img">
+            <img
+              src="./Assets/IMG/glam on demand better.PNG"
+              class="materialboxed"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              style="width: 500px;"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img margin-right">
+            <img
+              src="./Assets/IMG/tree better pic.PNG"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+              class="materialboxed"
+              style="width: 500px;"
+              alt=""
+            />
+          </div>
+          <div class="portfolio-description">
+            <h6>Memory Game</h6>
+            <h1>Memory Tree Game</h1>
+            <p>
+              This is the first react appilcation I built. A simple memory card
+              game using memory logic that logs the users top scores and current
+              scores while resetting the game after each loss.
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+            <a
+              href="https://treeclick.herokuapp.com/"
+              class="cta"
+              target="_blank"
+              >Live Site</a
+            >
+            <br />
+            <a
+              href="https://github.com/Lrop/Clicky-Game-Application"
+              class="cta"
+              target="_blank"
+              >View Details</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description margin-right">
+            <h6>Web Application</h6>
+            <h1>Eat-A-Burger</h1>
+            <p>
+              This application is used to save and store burger in a menu
+              database using Node express handles bars and MySql.
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+            <a
+              href="https://glam-on-demand.herokuapp.com/"
+              class="cta"
+              target="_blank"
+              >Live Site</a
+            >
+            <br />
+            <a
+              href="https://github.com/Lrop/Node-Express-Handlebars"
+              class="cta"
+              target="_blank"
+              >View Details</a
+            >
+          </div>
+          <div class="portfolio-img">
+            <img
+              src="./Assets/IMG/burger.PNG"
+              class="materialboxed"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              style="width: 500px;"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experince</h1>
+          <h6>Past and Current Jobs</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="2018 - Present">
+              <h1>J-Tech Medical</h1>
+              <p>
+                Software and production team member. Working closley with the
+                programming leads of there mobile and desktop medical UI.
+              </p>
+            </li>
+            <!-- <li class="date" data-date="2012 - Present">
             <h1>Facebook</h1>
             <p>
               adipisicing elit. Quos, aperiam dolore
@@ -289,80 +399,86 @@
               quasi fuga ut, architecto ab qui distinctio
             </p>
           </li> -->
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Contact</h1>
-        <!-- <h6>Lets Collab!</h6> -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <!-- <h6>Lets Collab!</h6> -->
+        </div>
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <label for="service">Services:</label>
+          <select name="services" id="service">
+            <option value="">Web Designer</option>
+            <option value="">Web Devolper</option>
+            <option value="">Full-Stack Developer</option>
+            <option value="">Back-End Developer</option>
+            <option value="">Front-End Developer</option>
+          </select>
+          <label for="subject">Subject:</label>
+          <textarea name="subject" id="subject" cols="20" rows="10"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
       </div>
-      <form action="" data-aos="fade-up" data-aos-delay="300">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
-        <label for="service">Services:</label>
-        <select name="services" id="service">
-          <option value="">Web Designer</option>
-          <option value="">Web Devolper</option>
-          <option value="">Full-Stack Developer</option>
-          <option value="">Back-End Developer</option>
-          <option value="">Front-End Developer</option>
-        </select>
-        <label for="subject">Subject:</label>
-        <textarea name="subject" id="subject" cols="20" rows="10"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </section>
+    </section>
 
-  <footer class="copyright">
-    <a href="#" id="top-button"> TOP
-      <div class="up" id="up" href="#">
+    <footer class="copyright">
+      <a href="#" id="top-button">
         TOP
-      </div>
-    </a>
-    <p>&copy; 2019 Luke Ropner</p>
-  </footer>
+        <div class="up" id="up" href="#">
+          TOP
+        </div>
+      </a>
+      <p>&copy; 2019 Luke Ropner</p>
+    </footer>
 
+    <!-- <a href=""></a> -->
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- JS -->
+    <script src="./main.js"></script>
 
-  <!-- <a href=""></a> -->
-
-
-
-
-
-
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <!-- JS -->
-  <script src="./main.js"></script>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
