@@ -7,7 +7,7 @@ var http = require("http");
 var app = express();
 
 var app = express();
-app.get("/home.html", function(req, res) {
+app.get("/index.html", function(req, res) {
   res.header("Content-Type", "text/html").send("<html>my html code</html>");
 });
 
@@ -26,7 +26,7 @@ var PORT = process.env.PORT || 8080;
 // response.sendfile("index.html");
 
 app.get("/", function(req, res) {
-  res.render("home", {});
+  res.render("index", {});
 });
 
 app.listen(PORT, function() {
